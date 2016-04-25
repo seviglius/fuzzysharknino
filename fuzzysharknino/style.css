@@ -1,0 +1,245 @@
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f5e003+0,f8991d+25,ee2624+50,b1246e+76,433a97+100 */
+background: #f5e003; /* Old browsers */
+background: -moz-linear-gradient(top,  #f5e003 0%, #f8991d 25%, #ee2624 50%, #b1246e 76%, #433a97 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #f5e003 0%,#f8991d 25%,#ee2624 50%,#b1246e 76%,#433a97 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #f5e003 0%,#f8991d 25%,#ee2624 50%,#b1246e 76%,#433a97 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5e003', endColorstr='#433a97',GradientType=0 ); /* IE6-9 */
+
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.full-page {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+canvas {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+}
+@media (max-width: 1024px) {
+  canvas {
+    display: none;
+  }
+}
+.logo {
+  width: 30%;
+  position: fixed;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate (-50%,-50%);
+}
+.logo img {
+  width: 100%;
+}
+.logo:hover,
+.logo:focus {
+  -webkit-animation-name: tremble;
+  -webkit-animation-duration: 0.2s;
+  -webkit-transform-origin:50% 50%;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+}
+.text {
+  position: fixed;
+  width: 10%;
+  top: 4%;
+  left: 3%;
+}
+.scca {
+  position: fixed;
+  bottom: 3%;
+  left: 3%;
+}
+.social {
+  position: fixed;
+  bottom: 3%;
+  right: 3%;
+}
+.stamp {
+  margin-top: -10%;
+
+}
+h1 {
+  font-size: 1.15rem;
+}
+
+/*
+**WAVES**
+*/
+.top-wave5 {
+  background: url('images/wavestroke.svg'); 
+  background-repeat: repeat-x;
+  position: fixed;
+  top: 0px;
+  width: 400%;
+  height: 80px;
+  animation: wave 14s cubic-bezier(0.35, 0.45, 0.65, 0.25) alternate infinite;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0) rotate(180deg);
+}
+.top-wave4 {
+  background: url('images/wavestroke.svg'); 
+  background-repeat: repeat-x;
+  position: fixed;
+  top: 50px;
+  width:4592px;
+  height: 35px;
+  animation: wave 7s cubic-bezier(0.35, 0.45, 0.65, 0.25) alternate infinite;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0) rotate(180deg);
+}
+.top-wave3 {
+  background: url('images/wavestroke.svg'); 
+  background-repeat: repeat-x;
+  position: fixed;
+  top: 100px;
+  width:4592px;
+  height: 80px;
+  animation: wave 15s cubic-bezier(0.35, 0.45, 0.65, 0.25) alternate infinite;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0) rotate(180deg);
+}
+.top-wave2 {
+  background: url('images/wavestroke.svg'); 
+  background-repeat: repeat-x;
+  position: absolute;
+  top: -350px;
+  width:4592px;
+  height: 130px;
+  animation: wave 8s cubic-bezier(0.35, 0.45, 0.65, 0.25) alternate infinite;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.top-wave1 {
+  background: url('images/wavestroke.svg'); 
+  background-repeat: repeat-x;
+  position: absolute;
+  top: -300px;
+  width:4592px;
+  height: 25px;
+  animation: wave 12s cubic-bezier(0.35, 0.45, 0.65, 0.25) alternate infinite;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.bottom-wave5 {
+  background: url('images/wavestroke.svg'); 
+  background-repeat: repeat-x;
+  position: absolute;
+  top: -250px;
+  width:4592px;
+  height: 50px;
+  animation: wave 7s cubic-bezier(0.35, 0.45, 0.65, 0.25) alternate infinite;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.bottom-wave4 {
+  background: url('images/wavestroke.svg'); 
+  background-repeat: repeat-x;
+  position: absolute;
+  top: -200px;
+  width:4592px;
+  height: 70px;
+  animation: wave 18s cubic-bezier(0.35, 0.45, 0.65, 0.25) alternate infinite;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.bottom-wave3 {
+  background: url('images/wavestroke.svg'); 
+  background-repeat: repeat-x;
+  position: absolute;
+  top: -150px;
+  width:4592px;
+  height: 155px;
+  animation: wave 5s cubic-bezier(0.35, 0.45, 0.65, 0.25) alternate infinite;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.bottom-wave2 {
+  background: url('images/wavestroke.svg'); 
+  background-repeat: repeat-x;
+  position: absolute;
+  bottom: 100px;
+  width:4592px;
+  height: 50px;
+  animation: wave 17s linear alternate infinite;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.bottom-wave1 {
+  background: url('images/wavestroke.svg'); 
+  background-repeat: repeat-x;
+  position: absolute;
+  bottom: 50px;
+  width:4592px;
+  height: 20px;
+  animation: wave 6s linear alternate infinite;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.wave-wrap {
+  background: transparent; 
+  display:inline-block;
+  height: 90px;
+  width:100%;
+  position:absolute;
+  z-index:0;
+  bottom:0;
+  left:0;
+}
+
+/**
+ANIMATION KEYFRAMES
+**/
+@keyframes wave {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: -200%;
+  }
+}
+
+@-webkit-keyframes wave {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: -200%;
+  }
+}
+@-webkit-keyframes tremble {
+  0% { -webkit-transform: translate(-52%, -51%) rotate(0deg); }
+  10% { -webkit-transform: translate(-49%, -48%) rotate(-1deg); }
+  20% { -webkit-transform: translate(-47%, -50%) rotate(1deg); }
+  30% { -webkit-transform: translate(-50%, -52%) rotate(0deg); }
+  40% { -webkit-transform: translate(-51%, -49%) rotate(1deg); }
+  50% { -webkit-transform: translate(-49%, -52%) rotate(-1deg); }
+  60% { -webkit-transform: translate(-47%, -51%) rotate(0deg); }
+  70% { -webkit-transform: translate(-52%, -51%) rotate(-1deg); }
+  80% { -webkit-transform: translate(-49%, -49%) rotate(1deg); }
+  90% { -webkit-transform: translate(-52%, -52%) rotate(0deg); }
+  100% { -webkit-transform: translate(-51%, -52%) rotate(-1deg); }
+}
+
+
