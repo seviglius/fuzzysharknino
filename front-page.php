@@ -64,26 +64,15 @@
       <div class="bottom-wave1"></div>
     </div>
     <div class="scca">
-      <a href="http://seattlecentralcreativeacademy.com"><h1>SCCA</h1></a>
+      <a target="_blank" href="http://seattlecentralcreativeacademy.com"><h1>SCCA</h1></a>
     </div>
     <div class="social">
-      <a href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+      <a target="_blank" href="https://www.instagram.com/creative_academy/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
     </div>
-    <!-- <div class="text">
-      <img src="images/logo-stamp.svg">
-    </div> -->
   </div>
 
 
-
 <?php wp_footer(); ?>
-
-
-<!-- Scripts
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-<!--  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script> -->
-<!-- <script src="js/sccawaves.js"></script> -->
 
 
 </body>
