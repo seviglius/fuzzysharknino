@@ -57,6 +57,11 @@ canvas {
   left: 50%;
   transform: translate(-50%,-50%);
 }
+@media (max-width: 768px) {
+  .logo {
+    width: 50%;
+  }
+}
 .logo img {
   width: 100%;
 }
@@ -64,12 +69,15 @@ canvas {
   width: 100%;
   transform: scale(0.8);
 }
-#biglogo {
 
-}
 #stamp {
-  transform: translateY(-50px);
+  transform: translateY(-50%);
 }
+// @media (max-width: 768px) {
+//   #stamp {
+//     transform: translateY(100px);
+//   }
+// }
 
 #biglogo:hover,
 #biglogo:focus {
