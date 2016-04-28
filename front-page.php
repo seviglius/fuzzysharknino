@@ -78,7 +78,7 @@
 
       <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
       <svg id="biglogo" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-         viewBox="-204 145 455 575" style="enable-background:new -204 145 455 575;" xml:space="preserve">
+         viewBox="0 0 1000 1000" style="enable-background:new -204 145 455 575;" xml:space="preserve">
       <polygon style="fill:#FFFFFF;" points="0.1,630.6 160.9,630.6 205.4,603.2 44.6,603.2 "/>
       <polygon style="fill:#FFFFFF;" points="194.5,583.2 194.5,282.3 44.6,282.3 0.1,309.7 147.4,309.7 147.4,583.2 "/>
       <polygon style="fill:#FFFFFF;" points="46,266.3 46,269.2 46,270 46,278.3 198.5,278.3 198.5,587.2 46,587.2 46,590 46,590.9 
@@ -132,7 +132,7 @@
 
       <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
       <svg id="stamp" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-         viewBox="-272 384 319 98" style="enable-background:new -272 384 319 98;" xml:space="preserve">
+         viewBox="0 0 1200 600" style="enable-background:new -272 384 319 98;" xml:space="preserve">
       <g>
         <path style="fill:#FFFFFF;" d="M-262.2,414.6v-18.7h5.6c5.7,0,8.6,2,8.6,6c0,2.1-0.7,3.6-2.2,4.6s-3.6,1.5-6.5,1.5h-1.3v6.7
           L-262.2,414.6L-262.2,414.6z M-258.1,404.5h1.5c1.7,0,2.8-0.2,3.5-0.6s1-1,1-1.9c0-1-0.3-1.7-1-2s-1.9-0.5-3.5-0.5h-1.4v5H-258.1z"
