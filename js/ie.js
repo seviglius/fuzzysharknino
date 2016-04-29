@@ -1,4 +1,4 @@
-/**
+ /**
   Target IE 10 with JavaScript and CSS property detection.
   
   # 2013 by Tim Pietrusky
@@ -62,7 +62,22 @@
  }
 
  if (ieVersion) {
-     $(".wave-wrap").hide();
+     b.className = ieVersion;
+     $('#versionId').html('Version: ' + ieVersion);
  } else {
      createEl('Not IE10 or 11.');
  }
+
+ /*
+  * Just a little helper to create a DOM element
+  */
+ function createEl(content) {
+     el = d.createElement('div');
+     el.innerHTML = content;
+     b.appendChild(el);
+ }
+
+ /*
+  * List of IE CSS stuff:
+  * http://msdn.microsoft.com/en-us/library/ie/hh869403(v=vs.85).aspx
+  */
