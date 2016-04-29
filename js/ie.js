@@ -47,7 +47,7 @@
 
      if (s[property] != undefined) {
          ieVersion = "ie10";
-         // createEl("IE10 style found: " + property);
+         createEl("IE10 style found: " + property);
      }
  }
 
@@ -57,12 +57,12 @@
 
      if (s[property] != undefined) {
          ieVersion = "ie11";
-         // createEl("IE11 style found: " + property);
+         createEl("IE11 style found: " + property);
      }
  }
 
  if (ieVersion) {
-     $( ".wave-wrap" ).hide();
+     $(".wave-wrap").hide();
  } else {
-     // createEl('Not IE10 or 11.');
+     createEl('Not IE10 or 11.');
  }
