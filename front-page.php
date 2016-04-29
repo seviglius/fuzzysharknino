@@ -64,7 +64,7 @@
 
 <body>
   <div class="full-page">
-    <div class="wave-wrap">
+    <div class="wave-wrap ie10up">
       <div class="top-wave2"></div>
       <div class="top-wave1"></div>
       <div class="top-wave3"></div>
@@ -72,7 +72,7 @@
       <div class="top-wave5"></div>
     </div>
     <canvas resize="true" id="myCanvas"></canvas>
-    <div class="wave-wrap">
+    <div class="wave-wrap ie10up">
       <div class="bottom-wave5"></div>
       <div class="bottom-wave4"></div>
       <div class="bottom-wave3"></div>
