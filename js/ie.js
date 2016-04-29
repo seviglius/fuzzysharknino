@@ -15,6 +15,7 @@ function GetIEVersion() {
 }
 
 if (GetIEVersion() > 0) 
-   $( ".wave-wrap" ).hide();
+   alert("This is IE " + GetIEVersion());
+$( ".wave-wrap" ).hide();
 else 
    alert("This is not IE.");
