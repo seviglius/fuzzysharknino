@@ -263,7 +263,10 @@ h1 {
   left: 0; }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-   .ie10up{display:none;}
+/* IE10+ CSS styles go here */
+  .wave-wrap {
+    opacity: 0;
+  }
 }
 
 
