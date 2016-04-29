@@ -56,9 +56,9 @@
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
  <script src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.9.24/paper-full.min.js"></script>
   <script type="text/paperscript" src="<?php bloginfo('template_url'); ?>/js/sccawaves.js" canvas="myCanvas"></script>
-  	<![if !IE]>
+  	
    <script src="<?php bloginfo('template_url'); ?>/js/ie.js"></script>
-	<![endif]>
+	
   <?php wp_head(); ?>
 </head>
 
@@ -79,7 +79,7 @@
       <div class="bottom-wave2"></div>
       <div class="bottom-wave1"></div>
     </div>
-    
+
       <div class="logo">
 
       <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
