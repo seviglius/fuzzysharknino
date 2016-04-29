@@ -62,7 +62,7 @@
  }
 
  if (ieVersion) {
-     b.className = ieVersion;
+     b.className += ' ' + ieVersion;
      $('#versionId').html('Version: ' + ieVersion);
  } else {
      createEl('Not IE10 or 11.');
