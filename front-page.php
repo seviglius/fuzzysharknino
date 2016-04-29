@@ -80,7 +80,10 @@
       <div class="bottom-wave2"></div>
       <div class="bottom-wave1"></div>
     </div>
-
+      <div class="logo-ie">
+        <img id="biglogo-ie" src="<?php bloginfo('template_url'); ?>/images/logo-ie.png">
+        <img id="stamp-ie" src="<?php bloginfo('template_url'); ?>/images/logo-stamp-ie.png">
+      </div>
       <div class="logo">
 
       <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->

@@ -262,11 +262,51 @@ h1 {
   bottom: 0;
   left: 0; }
 
+  .logo-ie {
+    display: none;
+    width: 30%;
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .logo-ie img {
+    width: 100%;
+  }
+  #stamp-ie {
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%); }
+
+  #biglogo-ie {
+    -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+  }
+
+  #biglogo-ie:hover,
+  #biglogo-ie:focus {
+    -webkit-animation-name: tremble;
+            animation-name: tremble;
+    -webkit-animation-duration: 0.2s;
+            animation-duration: 0.2s;
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear; }
+
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
 /* IE10+ CSS styles go here */
   .wave-wrap {
-    opacity: 0;
+    display: none;
   }
+  .logo {
+    display: none;
+  }
+  .logo-ie {
+    display: block;
+
 }
 
 
