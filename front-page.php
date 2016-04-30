@@ -57,15 +57,13 @@
  <script src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.9.24/paper-full.min.js"></script>
   <script type="text/paperscript" src="<?php bloginfo('template_url'); ?>/js/sccawaves.js" canvas="myCanvas"></script>
   	
-   <script src="<?php bloginfo('template_url'); ?>/js/ie.js"></script>
 	
   <?php wp_head(); ?>
 </head>
 
 <body>
   <div class="full-page">
-  <h2 id="versionId"></h2>
-    <div class="wave-wrap ie10up">
+    <div class="wave-wrap">
       <div class="top-wave2"></div>
       <div class="top-wave1"></div>
       <div class="top-wave3"></div>
@@ -73,7 +71,7 @@
       <div class="top-wave5"></div>
     </div>
     <canvas resize="true" id="myCanvas"></canvas>
-    <div class="wave-wrap ie10up">
+    <div class="wave-wrap">
       <div class="bottom-wave5"></div>
       <div class="bottom-wave4"></div>
       <div class="bottom-wave3"></div>
