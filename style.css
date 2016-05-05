@@ -118,7 +118,7 @@ h1 {
   position: fixed;
   top: 0px;
   width: 400%;
-  height: 80px;
+  height: 81px;
   -webkit-animation: wave 14s cubic-bezier(0.35, 0.45, 0.65, 0.25) alternate infinite;
           animation: wave 14s cubic-bezier(0.35, 0.45, 0.65, 0.25) alternate infinite;
   -webkit-transform: translate3d(0, 0, 0);
@@ -131,7 +131,7 @@ h1 {
   background-repeat: repeat-x;
   position: fixed;
   top: 50px;
-  width: 4592px;
+  width: 400%;
   height: 35px;
   -webkit-animation: wave 7s cubic-bezier(0.35, 0.45, 0.65, 0.25) alternate infinite;
           animation: wave 7s cubic-bezier(0.35, 0.45, 0.65, 0.25) alternate infinite;
@@ -145,7 +145,7 @@ h1 {
   background-repeat: repeat-x;
   position: fixed;
   top: 100px;
-  width: 4592px;
+  width: 400%;
   height: 80px;
   -webkit-animation: wave 15s cubic-bezier(0.35, 0.45, 0.65, 0.25) alternate infinite;
           animation: wave 15s cubic-bezier(0.35, 0.45, 0.65, 0.25) alternate infinite;
@@ -159,7 +159,7 @@ h1 {
   background-repeat: repeat-x;
   position: absolute;
   top: -350px;
-  width: 4592px;
+  width: 400%;
   height: 130px;
   -webkit-animation: wave 8s cubic-bezier(0.35, 0.45, 0.65, 0.25) alternate infinite;
           animation: wave 8s cubic-bezier(0.35, 0.45, 0.65, 0.25) alternate infinite;
@@ -173,7 +173,7 @@ h1 {
   background-repeat: repeat-x;
   position: absolute;
   top: -300px;
-  width: 4592px;
+  width: 400%;
   height: 25px;
   -webkit-animation: wave 12s cubic-bezier(0.35, 0.45, 0.65, 0.25) alternate infinite;
           animation: wave 12s cubic-bezier(0.35, 0.45, 0.65, 0.25) alternate infinite;
@@ -187,7 +187,7 @@ h1 {
   background-repeat: repeat-x;
   position: absolute;
   top: -250px;
-  width: 4592px;
+  width: 400%;
   height: 50px;
   -webkit-animation: wave 7s cubic-bezier(0.35, 0.45, 0.65, 0.25) alternate infinite;
           animation: wave 7s cubic-bezier(0.35, 0.45, 0.65, 0.25) alternate infinite;
@@ -201,7 +201,7 @@ h1 {
   background-repeat: repeat-x;
   position: absolute;
   top: -200px;
-  width: 4592px;
+  width: 400%;
   height: 70px;
   -webkit-animation: wave 18s cubic-bezier(0.35, 0.45, 0.65, 0.25) alternate infinite;
           animation: wave 18s cubic-bezier(0.35, 0.45, 0.65, 0.25) alternate infinite;
@@ -215,8 +215,8 @@ h1 {
   background-repeat: repeat-x;
   position: absolute;
   top: -150px;
-  width: 4592px;
-  height: 155px;
+  width: 400%;
+  height: 156px;
   -webkit-animation: wave 5s cubic-bezier(0.35, 0.45, 0.65, 0.25) alternate infinite;
           animation: wave 5s cubic-bezier(0.35, 0.45, 0.65, 0.25) alternate infinite;
   -webkit-transform: translate3d(0, 0, 0);
@@ -229,7 +229,7 @@ h1 {
   background-repeat: repeat-x;
   position: absolute;
   bottom: 100px;
-  width: 4592px;
+  width: 400%;
   height: 50px;
   -webkit-animation: wave 17s linear alternate infinite;
           animation: wave 17s linear alternate infinite;
@@ -243,7 +243,7 @@ h1 {
   background-repeat: repeat-x;
   position: absolute;
   bottom: 50px;
-  width: 4592px;
+  width: 400%;
   height: 20px;
   -webkit-animation: wave 6s linear alternate infinite;
           animation: wave 6s linear alternate infinite;
