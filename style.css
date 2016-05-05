@@ -26,7 +26,7 @@ a {
   color: white;
   text-decoration: none; }
 
-.scca:hover, .scca:focus {
+.scca a h1:hover, .scca a h1:focus {
   color: red;
 }
 
@@ -120,7 +120,7 @@ canvas {
   margin-top: -10%; }
 
 h1 {
-  font-size: 1.15rem;
+  font-size: 1rem;
   font-weight: normal;
   color: white; }
 
