@@ -174,7 +174,7 @@ h1 {
   position: absolute;
   top: -300px;
   width: 400%;
-  height: 25px;
+  height: 27px;
   -webkit-animation: wave 12s cubic-bezier(0.35, 0.45, 0.65, 0.25) alternate infinite;
           animation: wave 12s cubic-bezier(0.35, 0.45, 0.65, 0.25) alternate infinite;
   -webkit-transform: translate3d(0, 0, 0);
@@ -202,7 +202,7 @@ h1 {
   position: absolute;
   top: -200px;
   width: 400%;
-  height: 70px;
+  height: 71px;
   -webkit-animation: wave 18s cubic-bezier(0.35, 0.45, 0.65, 0.25) alternate infinite;
           animation: wave 18s cubic-bezier(0.35, 0.45, 0.65, 0.25) alternate infinite;
   -webkit-transform: translate3d(0, 0, 0);
@@ -230,7 +230,7 @@ h1 {
   position: absolute;
   bottom: 100px;
   width: 400%;
-  height: 50px;
+  height: 51px;
   -webkit-animation: wave 17s linear alternate infinite;
           animation: wave 17s linear alternate infinite;
   -webkit-transform: translate3d(0, 0, 0);
