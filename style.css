@@ -25,21 +25,11 @@ body {
 a {
   color: white;
   text-decoration: none; }
-.scca {
-  width: 100%;
-  position: fixed;
-  left: 0;
-  right: 0;
 
-}
-.scca a {
-  display: inline-block;
-  margin: auto; 
-}
 .scca a h1:hover, .scca a h1:focus {
   font-weight: bold}
 
-.social a:hover, .social a:focus, .snapchat a:hover, .snapchat a:focus {
+.social:hover, .social:focus, .snapchat:hover, .snapchat:focus {
   -webkit-animation-name: tremblelink;
           animation-name: tremblelink;
   -webkit-animation-duration: 0.2s;
@@ -111,6 +101,12 @@ canvas {
   bottom: 3%;
   left: 3%; }
 
+.scca {
+  position: fixed;
+  bottom: 3%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%); }
 
 .social {
   position: fixed;
