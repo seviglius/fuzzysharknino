@@ -26,7 +26,7 @@ a {
   color: white;
   text-decoration: none; }
 
-.scca:hover, .scca:focus, .social:hover, .social:focus {
+.scca:hover, .scca:focus, .social:hover, .social:focus, .snapchat:hover, .snapchat:focus {
   -webkit-animation-name: tremblelink;
           animation-name: tremblelink;
   -webkit-animation-duration: 0.2s;
@@ -93,15 +93,24 @@ canvas {
   top: 4%;
   left: 3%; }
 
-.scca {
+.snapchat {
   position: fixed;
   bottom: 3%;
   left: 3%; }
+
+.scca {
+  position: fixed;
+  bottom: 3%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
 
 .social {
   position: fixed;
   bottom: 3%;
   right: 3%; }
+
+
 
 .stamp {
   margin-top: -10%; }
@@ -118,7 +127,7 @@ h1 {
   position: fixed;
   top: 10%;
   width: 400%;
-  height: 81px;
+  height: 82px;
   -webkit-animation: wave 14s cubic-bezier(0.35, 0.45, 0.65, 0.25) alternate infinite;
           animation: wave 14s cubic-bezier(0.35, 0.45, 0.65, 0.25) alternate infinite;
   -webkit-transform: translate3d(0, 0, 0);
@@ -130,9 +139,9 @@ h1 {
   background: url("images/wavestroke.svg");
   background-repeat: repeat-x;
   position: fixed;
-  top: 10%;
+  top: 5%;
   width: 400%;
-  height: 45px;
+  height: 46px;
   -webkit-animation: wave 7s cubic-bezier(0.35, 0.45, 0.65, 0.25) alternate infinite;
           animation: wave 7s cubic-bezier(0.35, 0.45, 0.65, 0.25) alternate infinite;
   -webkit-transform: translate3d(0, 0, 0);
@@ -144,7 +153,7 @@ h1 {
   background: url("images/wavestroke.svg");
   background-repeat: repeat-x;
   position: fixed;
-  top: 20%;
+  top: 15%;
   width: 400%;
   height: 90px;
   -webkit-animation: wave 15s cubic-bezier(0.35, 0.45, 0.65, 0.25) alternate infinite;
@@ -174,7 +183,7 @@ h1 {
   position: absolute;
   top: 40%;
   width: 400%;
-  height: 87px;
+  height: 88px;
   -webkit-animation: wave 12s cubic-bezier(0.35, 0.45, 0.65, 0.25) alternate infinite;
           animation: wave 12s cubic-bezier(0.35, 0.45, 0.65, 0.25) alternate infinite;
   -webkit-transform: translate3d(0, 0, 0);
@@ -186,7 +195,7 @@ h1 {
   background: url("images/wavestroke.svg");
   background-repeat: repeat-x;
   position: absolute;
-  top: 50%;
+  top: 55%;
   width: 400%;
   height: 50px;
   -webkit-animation: wave 7s cubic-bezier(0.35, 0.45, 0.65, 0.25) alternate infinite;
@@ -200,7 +209,7 @@ h1 {
   background: url("images/wavestroke.svg");
   background-repeat: repeat-x;
   position: absolute;
-  top: 60%;
+  top: 65%;
   width: 400%;
   height: 71px;
   -webkit-animation: wave 18s cubic-bezier(0.35, 0.45, 0.65, 0.25) alternate infinite;
@@ -228,7 +237,7 @@ h1 {
   background: url("images/wavestroke.svg");
   background-repeat: repeat-x;
   position: absolute;
-  bottom: 20%;
+  bottom: 15%;
   width: 400%;
   height: 52px;
   -webkit-animation: wave 17s linear alternate infinite;
@@ -242,7 +251,7 @@ h1 {
   background: url("images/wavestroke.svg");
   background-repeat: repeat-x;
   position: absolute;
-  bottom: 10%;
+  bottom: 5%;
   width: 400%;
   height: 40px;
   -webkit-animation: wave 6s linear alternate infinite;
