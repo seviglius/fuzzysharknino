@@ -26,7 +26,11 @@ a {
   color: white;
   text-decoration: none; }
 
-.scca:hover, .scca:focus, .social:hover, .social:focus, .snapchat:hover, .snapchat:focus {
+.scca:hover, .scca:focus {
+  color: red;
+}
+
+.social:hover, .social:focus, .snapchat:hover, .snapchat:focus {
   -webkit-animation-name: tremblelink;
           animation-name: tremblelink;
   -webkit-animation-duration: 0.2s;
@@ -102,8 +106,8 @@ canvas {
   position: fixed;
   bottom: 3%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%); }
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%); }
 
 .social {
   position: fixed;
@@ -116,7 +120,8 @@ canvas {
   margin-top: -10%; }
 
 h1 {
-  font-size: 1.15rem; }
+  font-size: 1.15rem;
+  font-weight: normal; }
 
 /*
 **WAVES**
