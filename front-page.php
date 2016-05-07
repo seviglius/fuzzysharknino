@@ -228,7 +228,6 @@
     <div class="social">
       <a target="_blank" href="https://www.instagram.com/creative_academy/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
     </div>
-    <div class="snapbar"><h1>@creativeacademy</h1></div>
     <!-- <div class="text">
       <img src="images/logo-stamp.svg">
     </div> -->
