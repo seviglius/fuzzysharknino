@@ -108,6 +108,12 @@ canvas {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%); }
 
+@media (max-width: 768px) {
+  .scca h1 {
+    font-size: 0.78rem;
+  }
+}
+
 .social {
   position: fixed;
   bottom: 3%;
@@ -118,7 +124,6 @@ canvas {
   width: 100%;
   position: fixed;
   bottom: 20%;
-  background: #d2d2d2;
   color: white;
 }
 .snapchat:hover > .snapbar {
