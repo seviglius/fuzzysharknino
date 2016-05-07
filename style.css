@@ -98,7 +98,7 @@ canvas {
 
 .snapchat {
   position: fixed;
-  bottom: 3%;
+  bottom: 2%;
   left: 3%; }
 
 .scca {
@@ -108,21 +108,22 @@ canvas {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%); }
 
-@media (max-width: 768px) {
-  .scca {
-    bottom: 80%;
-    left: 5%;
-    text-align: center;
-    width: 100%;
-    -webkit-transform: translateX(-50%) rotate(90deg);
-          transform: translateX(-50%) rotate(90deg);
-  }
-}
-
 .social {
   position: fixed;
   bottom: 3%;
   right: 3%; }
+
+.snapbar {
+  display: none;
+  width: 100%;
+  position: fixed;
+  bottom: 20%;
+  background: #d2d2d2;
+  color: white;
+}
+.snapchat:hover > .snapbar {
+  display: block;
+}
 
 
 

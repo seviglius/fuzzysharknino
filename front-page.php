@@ -219,7 +219,8 @@
         <!-- <img class="stamp" src="<?php bloginfo('template_url'); ?>/images/logo-stamp.svg"> -->
       </div>
     <div class="snapchat">
-      <h1><i class="fa fa-snapchat-ghost fa-2x" aria-hidden="true"></i> @creativeacademy</h1>
+      <h1><i class="fa fa-snapchat-ghost fa-2x" aria-hidden="true"></i></h1>
+      <div class="snapbar"><h1>@creativeacademy</h1></div>
     </div>
     <div class="scca">
       <a target="_blank" href="http://seattlecentralcreativeacademy.com"><h1>Seattle Central Creative Academy</h1></a>
@@ -227,6 +228,7 @@
     <div class="social">
       <a target="_blank" href="https://www.instagram.com/creative_academy/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
     </div>
+    <div class="snapbar"><h1>@creativeacademy</h1></div>
     <!-- <div class="text">
       <img src="images/logo-stamp.svg">
     </div> -->
