@@ -108,6 +108,17 @@ canvas {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%); }
 
+@media (max-width: 768px) {
+  .scca {
+    bottom: 80%;
+    left: 5%;
+    text-align: center;
+    width: 100%;
+    -webkit-transform: translateX(-50%) rotate(90deg);
+          transform: translateX(-50%) rotate(90deg);
+  }
+}
+
 .social {
   position: fixed;
   bottom: 3%;
