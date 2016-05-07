@@ -29,7 +29,7 @@ a {
 .scca a h1:hover, .scca a h1:focus {
   font-weight: bold}
 
-.social:hover, .social:focus, .snapchat:hover, .snapchat:focus {
+.social:hover, .social:focus {
   -webkit-animation-name: tremblelink;
           animation-name: tremblelink;
   -webkit-animation-duration: 0.2s;
